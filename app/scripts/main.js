@@ -6,7 +6,7 @@
         content = '';
 
     Object.keys(allCookies).forEach(function(key) {
-      content += '<li>' + key + ': ' + allCookies[key]; + '</li>';
+      content += '<li>' + key + ': ' + allCookies[key] + '</li>';
     });
     $container.html('<ul>' + content + '</ul>');
     $info.html('Cookies loaded at ' + new Date().toLocaleTimeString());
